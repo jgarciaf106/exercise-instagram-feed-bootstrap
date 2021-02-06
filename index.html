@@ -18,11 +18,24 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="#" style="font-family: 'Big Shoulders Display', cursive;"><i
                         class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-                <button type="button" class="btn btn-success " data-toggle="modal" data-target="#exampleModal"
+               
+                <div class="dropdown">
+                     <button type="button" class="btn btn-success " data-toggle="modal" data-target="#exampleModal"
                     style="font-family: 'Big Shoulders Display', cursive;">Create a new post</button>
+                    <i class="fa fa-cog btn btn-secondary dropdown-toggle" aria-hidden="true" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </i>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <br>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </div>
+
 
     <nav class="nav nav-pills justify-content-center">
         <a class="nav-item nav-link active" href="#threecolumn" data-toggle="tab"><i class="fa fa-th"
